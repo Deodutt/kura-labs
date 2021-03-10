@@ -1,2 +1,2 @@
 # Last-Mile-Talent-Development
-DevOps
+This repo will include technical learning assignment from Last Mile Talent Development. 

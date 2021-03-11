@@ -360,14 +360,96 @@ some OS sell OS in disk form.
 
 The Internet and Networking | Videos 41-45  | ~20 mins
 vid 041
+Module Introduction
+The internet makes it possible for us to connect with anyone on the world. - basic info
+Next few lessons, what internet is, how it impacts us negative and positive
 
 vid 042
+Basics of Networking
+Internet is interconnection of compouters around the world that brings us together
+Network - Interconnection of computers
+World Wide Web is not the internet
+The internet is the physical connection of computers and wires around the world.
+The Web is the information on the internet
+NetWorking - managing building and desinging networks.
+
+The internet composed of satellites, celluar networks and phyiscal cables in grounds. We dont connect to internet directly
+Servers connect to the internet. Servers store websites we use. These website serve content. 
+Machines we use, phones, laptops. are called clients. Clients request the content from servers. 
+Clients connect to an ISP internet service provider. ISP has built networks that connect many computers together in 1 network.
+all other network, form one giant network called the internet.
+Computers have address. Computers on a network have an IDENTIFIER called an IP address.
+IPs have digits and numbers.
+Devices that can connect to network have MAC address
+MAC addresses are mostly permanent and hard coded onto devices. 82:4f:23:59
+
+When you send or recieve data through a network, you need to have both an IP and MAC address.
+We need two numbers mac and IP.
+IP address is house address. MAC address is name of receiptant.
+want letter gets to right location and right person.
+Data sent through network are sent through packets. doesnt matter if pictures email music txt, when move data through network its broken down to packet.
+
+When packet gets to destination it rearrange itself back in order.
+
+wants to google and search for cats:
+computer has to send packet to google to ask google if it can access the website. doesnt know how to get there. goes to different destination to get to google. finally goes to a destination that can deleiver packet to google, google sends packet to person saying you can access unlimiated packet of cat pics.
 
 vid 043
+Networking Hardware
+talk about how networks are connected
+Ethernet cables. physically connect to network through a cable. network port on computer u can plug ethernet cable in
+WIFI. Wireless networking. most modern comp system have wireless capabilities. wireless networks use radios and antennas.
+Fiber optic cables to connect to a network. most expensive because fiber optic gives greater speed. cable contain glass fibers that move data through light than electricity. 
+computers connect to few devices that help organize our network.
+Router - connects lot of differenct devices together and help route network traffic
+Want send file to comp A to B. Packet goes thorugh router. rotuer uses network protocols to determine where to send the packet. Routers use set of rules to find out where to send the data.
+
+Send a packet to another computer out the network? Packet routers outside of network to ISP network. Network protocols help find out where another computers is.
+Switches and hub help data travel.
+Hubs are like company memos. send it to everyone
+
+Network stack - a set of hardware or software that provides infrastructure of a computer
+
+invesitaget nework stack. make sure end user computer working. then focus on cabling switch routers that work to access the internet.
+
 
 vid 044
+Language of the internet
+Network protocols - set of rules for how we transfer data in a network.
+Rules to make sure that packets are routed efficiently, not corrupted, secure, go to right machine, named approprietly
+Transmission control Protocol and Internet Protocol (TCP/IP) - 
+Internet protocol - responsilbe to deliover packet to right computers. Internet porotocol addresses. IP helps us route information
+
+TCP - a protocol that handles reliable delivery of information to one network to another. This protocol was important part of creation of internet because it helps us share information with other computers/.
+
 
 vid 045
+The Web
+cover how people access the internet.
+all websites can be accessed throgu the web.
+websites are text documents that are formatted with HTML
+HTML hyper text markup language
+coding language used by web browsers. web pages are made up with multimedia content like text images, audio and video
+to navigate to website. type in url. www.reddit.com
+URL = uniform resource locator - just a web address like a home address
+wordlwideweb domain name domain endings
+anyone can register to domain name
+once name is taken it is registerd to ICANN
+ICANN = Internet Corporation for assigned names and numbers. 
+once domain registerd, nobody can take that name unless avacabile.
+different cdomain endings are standards for what type of website it is.
+.edu is education
+172.217.6.46 = takes u to google
+IP address maps to google home page through critical web protocol called Deconstruct
+DNS = DOMAIN NAME SYSTEM. DNS acts like internet directory and lets us use readable worlds to map to IP address.
+
+Everytime you tpye in a URL. COMPUTER is performing a DNS lookup to find IP address of werbsite name u typed in.
+good step to diagnose DNS issues. 
+
+if you can access website throguh IP but not through human domain name, then good bet there is a problem in the DNS config the network is using.
+understaind IP is handy in situations you will handle in IT. source of internet request are identified by ip addresses in server logs.
+many IT infrastructure need to have ip address configureation for it to work.
+
 
 
 The Cloud | Video 157 | 5-15 mins

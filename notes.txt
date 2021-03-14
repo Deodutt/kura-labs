@@ -454,10 +454,169 @@ many IT infrastructure need to have ip address configureation for it to work.
 
 The Cloud | Video 157 | 5-15 mins
 vid 157
+The Bits and Bytes of coputer networking
+What is the cloud?
+public/private cloud, hybrid cloud, Cloud client, cloud storage, cloud server
+The cloud is the future. IT need to keep up to support them
+The cloud is not a single technology. It is just a concept.
+Cloud computing is a technological apporach where computing resources are provisioned in a shareable way, so that lots of users get what they need, when they need it
+At the heart, the technology known as hardware virtualization
+Hardware virtulaization allows the concept of a phsyical and logical machine to be extracted away.
+
+Virtualization a single physical machine, called a host, could run many individual virtual instances called guest.
+OS expects to communicate with underlying hardware
+Hardware virtualization platforms use Hypervisors
+A hypervisors is a peice of software that runs and manages virtual machines (VMs), while also offering these guest a virtual operating platform that indistinguishable from actual hardware.
+
+With virtualization a single machine can act as host for many independent virtual instances. each run own OS and in many ways are indistinguishable  from the same OS running on phyiscal hardware
+
+The cloud takes it one step foward. if u build a huge cluster of interconncetd machine that can function as host for lots of virtual guest, you got a machine that can share resources of all instances.
+
+8gb email server needs to run on Windows
+8gb DNS server needs to run on linux
+32gb finacial DB1 database. needs 32gb of ram for end of month billing proceses. special version of linux for the database
+32gb financial db2 database backup. 
+4 machiens with 80gb of ram.
+cost a lot for something u wont be using all the time. part of the month u use less
+
+
+with virtual machines
+huge collection of interconnected servers that can host virtulized servers
+can be given acess to underlying ram as needed.
+company can charge to host virtual instances instead of buying 4 physical machines.
+cost much less
+
+cloud computing company that host can offer other services
+instead of worrying about backup solution, employ theirs.
+load balances are offered.
+if hardware breaks, they move virtual instances to another machine without u noticing.
+since virtual servers services, dont have to wait for phyiscal server u ordred. can easily set up in web browser.
+
+Public cloud - a large cluster of machines run by another company.
+private cloud - used by a single large corporation and generally phyisclaly hosted on its own premises - like facebook servers 
+
+hybrid cliud is a term used to describe sitatuons where companies migh run things like their most sensitive properiertary tech on a private cloud, while entrusting their less-sensitive servers to a public cloud
+*****
+Cloud computer - a new model in computing wherr large clusters of machines let us use the total resources avaialable in a better way.
+cloud lets us create a new server in the matter of moments. 
 
 
 Additional Video: AWS on Cloud Computing -> https://www.youtube.com/watch?v=dH0yz-Osy54
+
+Cloud computing is ondemand delivery of IT resources via the internet. pay as you go pricing. Instead of buying, maintaining physical data centers/servers you can access tech services like computing power, storage and data bases on as needed basis from cloud computing comapies like amazon AWS. 
+
+organization of every type. size and industy use cloud for  wide variety of use cases like data backup, disaster recovery, software development/testing web applications.
+
+medical companies use cloud to develop mnore personalized treatments
+financial companies use it to power real time fraud detection.
+cloud gaming.
+
+with cloud computing business can become more agile, reduce cost, instantly scale, and be globablly in minutes/
+cloud computing give instant access to broad range of tech to let people innoovate faster.
+from infrastructure services like compute storage and databases
+to machine learning data analytics and much mnore
+
+deploy tech services in minutes. to idea to implementation very fast
+freedom to experiment and test new ideas to differentiate customer experience and transform business
+ adding machine learning and intellgience
+
+ Dont need to make large upfront investment in hardware and overpay for capacity you dont use.
+ you can trade capital expensive for variable expensive
+ pay for IT as you consume it.
+ with cloud computing you access resources from the cloud in real time as needed.
+ scale resources up or down to grow or strink capacity as business needs change.
+ 
+ cloud computing makes it easier to expand to new regions and be globally in minutes.
+
+ putting applications in closer proximity to end users reduces latency and improves experience
+
+ Cloud frees you managing infrastructure and data centers so you can focus what matters most to ur business
+
+
+
+
 Additional Video: Benefits of Cloud Computing -> https://www.youtube.com/watch?v=KFtXnCmYx3s
+
+Real Definition
+Cloud computing is the on-demand delivery of compute power, database storage, applications, and other IT resoruces
+keyword: ondemand!. you get it on demand. get it when you need it.
+Throguh a cloud service platform with pay-as-you-go pricing
+Only pay for what you request when it requested it and as your using it. when your done using it, you dont pay. u wont be stuck with physical servers
+
+yOU CAN PROVISION exactly the right type and size of computing resources you need. cloud allows you to adapt to size and type you need.
+
+You can access as many resources ad you need, instalty.
+There is a nice interface to easily access anything.
+Simple way to access server, storage, databases and a set of application services
+
+
+AWS owns and maintains the network connected hardware required for these applications services, while you provision and use what you need via a web application
+
+office - instead of building a physical data center. you use cloud(a data center but not ours.) Pay for exactly what you want.
+
+You have been using some cloud services.
+Gmail is a email cloud services.
+Dropbox is a cloud storage service. built on AWS
+Netflix is built entirely on AWS. Video on Demand.
+
+Different types of clouds
+
+Private cloud: (Provider can be rackspace). Cloud services used by a single organization, not exposed to the pulbic. You get your own private data center managed by someone else. Compltele control. secuirty for sensitive applications. meet specific business needs.
+
+Public Cloud: (3 public cloud are Microsoft Azure, google cloud, AWS). cloud resources owned and operated by a third-aparty cloud service provider delivered over the internet. 6 advantages of cloud computing..
+
+Hybrid cloud: (private and public) Keep some servers on premises and extend some capabiilties to the cloud. Hybrid of own infrastructure and the AWS cloud
+Control over sensitve assets in your private infrastructure. flexiaibity and cost effectiveness of the public cloud.
+
+5 charactiersics of cloud computing
+1. On-demand self services: 
+a.Users can provsion resources and use them without human interaction from the service provider. (use without having anyone from AWS intervien)
+
+2. Broad network acess: 
+a.resources avaiable over the network, and can be accessed by diverse client platform.
+
+3. Mutli-tenacy and resource pooling: 
+a.mutliple customers can share the same infrastructure and applications with secuirty and privacy.
+b.multiple customers are serviced from the same physical resources
+
+4. Rapid elasticity and scalability:
+a. Automatically and quickly acquire and siapose resources when needed.
+b. quickly and easily scaled based on demand
+
+5. Measured service:
+a. Usage is measured, user pays correctly for what they have used.
+
+********************************************************************
+6 Advatages of Cloud Computing
+1. Trade capital expense (CAPEX) for operational expense (OPEX) 
+a. Pay on On-demand: dont own hardware
+b. Reduce Total Cost of Ownership (TCO) & Operational Expense (OPEX)
+Dont buy hardware in advanced. rent it from AWS
+
+2. Benefit from massive economies of scales
+a. Prices are reduced as AWS is more efficient due to large scale
+
+
+3. Stop guessing capacity
+a. Scale based on actual measured usage
+Before you had to plan and buy servers in advanced and hope it met capacity
+
+4. Increase speed and agility
+Create operate and do stuff right away. 
+
+5. Stop spending money running and maintaining data centers
+
+6. Go global in minutes: leverage the AWS global infrastructure
+
+
+********************************************************************
+Problems solved by the Cloud
+Flexibility: change resource types when needed.
+Cost-effectiveness: pay as you go, for what you use
+scalability: accommodate larger loads by making hardware stronger or adding additional nodes
+Elasticity: ability to scale out and scale-in when needed.
+High-availability and fault-tolerance: build across data centers
+agility: rapidly develop, test and launch software applications.
 
 -----
 

@@ -1,0 +1,34 @@
+Ted Talk Video -> https://www.youtube.com/watch?v=5MgBikgcWnY
+----------
+How long does it take to accquire a new skill?
+10,000 hours?! to learn a new skill?? -> Full time job for 5 years
+those hours came out from expert-level performance.
+the more time you spend practicing. the better you get.
+research says -> when you start, it takes you a long time. with a little bit of practice you get better. people get good with little bit of practice.
+
+learning curve - with little bit of practice you get good really quick. at certain point you hit a plateu 
+his research says 20 hours. you can go from learning nothing.
+
+4 simple steps to rapid skill acquisition
+1. Deconstruct the skill - decide what you exactly want to do. look into the skill and break it down into small peices. the more you break it down, the more you decide, what are the parts of the skill that will get to what you want. you can practice that first. practice most importanmt thing first will improve
+
+2. Learn enough to self-correct. get some resoruces. learn just enough that you can practice and self correct as you practice.
+
+3. Remove practice barriers. IMPORTANT. distraction, television, internet. things that distract you. the more you remove. the more liekly you are to sit down
+
+4. Practice at least 20 hours. Frustration barrier.
+talks about instrument
+
+-----
+
+
+Bonus Material
+----------
+
+Version control helps you 
+1) track changes
+2) show the world what you’re working on
+
+
+The video below (roughly an hour long) will teach you the basics of version control -> https://www.youtube.com/watch?v=RGOj5yH7evk
+-----

@@ -122,4 +122,19 @@ type()
 ----------
 Strings
 
+talks about Strings
+how to make multi line Strings
+index of strings.
+double quotes single quotes
+talk about [] brackets with index in depth.
+
+-----
+
+
+
+----------
+Formatted Strings
+
+
+
 -----

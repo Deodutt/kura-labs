@@ -148,6 +148,23 @@ easier to visualize
 
 ----------
 String Methods
+In this part, shopwing us cool things you can do with python strings.
+introducing len() function
+len() can help us input when we recieve input from a user
+good when input fields have a limit. we can enfoce a limit. 
+general purpose function built into python.
 
+when using methods like .upper , it does not modifiy the original string.
+
+introduces the find method 
+course.find("P")
+This will return the index of the first occurance of the character
+
+course.find("Beginners") #returns 11 because the word beginner starts at index 11
+print("python" in course) #returns false or true
+
+method of repalcing character.
+print(course.replace("Dummies", "Absolute Beginners"))
+this method is case sensitive.
 
 -----

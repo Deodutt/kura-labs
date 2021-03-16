@@ -1,8 +1,125 @@
-Dev Learning Assignment
 ----------
+Dev Learning Assignment
+
+The development part of DevOps is concerned with....
+1. understanding how software is built using intentional planning, coding languages, collaboration and various methodologies
+2. the automation of processes that reduce the time that it takes to develop new features that a customer can use with minimal errors.
+
+DevOps engineers must be able to understand the code that developers have written and be able to write their own code to automate the set-up and maintenance of reliable infrastructure.
 
 Goal: Learn Python
 Source: Mosh’s Programming Tutorial -> https://www.youtube.com/watch?v=rfscVS0vtbw
-Assignment: Watch for first 4:10 hrs -> https://www.youtube.com/watch?v=_uQrJ0TkZlc
+Assignment: Watch for first 4:10 hrs -> https://www.youtube.com/watch?v=_uQrJ0TkZlc  (https://www.youtube.com/watch?v=_uQrJ0TkZlc&t=9662s)
+
+Introduction
+Python most popular programming language
+Used for Automation, A.I., applications, and websites like Instagram.
+
+Talk about core cocepts of python then build 3 python projects together.
+Learn how to create website for imaginary website using a python framework named Jango.
+Learn how to write a python program that predicts music people like based off their profile (like youtube recommends videos)
+
+Teach us how to use python to automate boring repetitive task.
+
+Write python program that process thousands of spread sheets in seconds
+
+This course is for beginners
+
+Plenty of exercises.
+-----
+
+
+
+----------
+Installing Python
+
+Installing Python -> python.org -> downloads tab -> download python latest version
+downloads folder -> double click -> click ADD python to PATH for windows.
+
+Install code editor.
+PyCharm for writing python code. IDE. integrated development environment
+Additonal features that make it easy to write code.
+Community edition -> download folder -> double click -> do not import settings -> custoomize -> ive never used pyCharm -> 
+
+-----
+
+
+
+----------
+Your First Python Program
+
+In the future we will build applications that have GUIs
+
+-----
+
+
+
+----------
+How Code gets Executed
+
+Python code gets executed line by line from the top.
+Python interpreter. A program that knows how to translate/interpret python code into instructions our computer can ujnderstand
+
+print("*" * 10)
+
+anywhere we have '' we are defining a string. * 10 means we are multiplying the string by 10
+"*" * 10 is also an expression. Expression is a piece of code that produces a value. first will evaluate code between (). The expression will produce 10 * and will be printed on the terminal.
+
+-----
+
+
+
+----------
+How long does it take to learn python and be job ready? No single answer but it depends on you and how you commit/effort. spend 2 hours a day consistently. after 3 months you can write basic python programs. You need to know what you want to use python for
+Web applications, AI?, Desktop aplication?, machine learning? To be a web developer learn about HTML, CSS, Javascripot and Jango. Thats anohter 6 month. 
+9-12 months to be job ready.
+Make a commitment!
+-----
+
+
+
+----------
+Variables
+Most fundamental.
+Use variables to store temporary data in computers memeory.
+integer is number wihtout decimal point
+
+float are numbers with decimal point
+
+-----
+
+
+
+----------
+Getting Input
+input and print () are functions built into python.
+when you have () you are calling or executing that function
+-----
+
+
+
+----------
+Type conversion
+TypeError: unsupported operand type(s) for -: 'int' and 'str'
+integer and string
+we are subtracting a string from an integer. python doesnt know what to do with it.
+
+Whatever we type in terminal is treated as a string.
+2019 - '1982'
+to fix this problem we nmeed to turn the user input into an integer.
+
+Another built in function to help us convert values into different types
+int()
+float()
+bool() convert string into boolean value
+
+type()
+
+-----
+
+
+
+----------
+Strings
 
 -----

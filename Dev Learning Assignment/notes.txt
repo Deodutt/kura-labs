@@ -168,3 +168,23 @@ print(course.replace("Dummies", "Absolute Beginners"))
 this method is case sensitive.
 
 -----
+
+
+
+----------
+Arithmetic Operations
+Talks about different operators in python
++
+-
+*
+/ - returns a float number division
+// - returns a integer number division
+% - returns remainder of a division.
+** - power. 10 to the power
+
+Talks about augmented assignment operator  to increment a number
+augmented assignment operator lets us write the same code in a shorter form
+x = 10
+x = x + 3
+x += 3
+-----

@@ -188,3 +188,19 @@ x = 10
 x = x + 3
 x += 3
 -----
+
+
+
+----------
+Operator Precedence
+Basically PEMDAS
+basic math concept.
+parenthesis
+exponents
+multiplcation or division
+addition or subtraction
+order of operations
+
+basic math concept not python.
+
+-----

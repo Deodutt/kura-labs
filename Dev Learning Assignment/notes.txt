@@ -134,7 +134,20 @@ talk about [] brackets with index in depth.
 
 ----------
 Formatted Strings
+Formatted strings are particually useful in situations where we want to dynamically generate some text with your varaibles.
+F-strings
 
+msg = f"{first} [{last}] is a coder." is a formatted string.
+the variables in {} will be replaced with the values.
+
+easier to visualize
+
+-----
+
+
+
+----------
+String Methods
 
 
 -----

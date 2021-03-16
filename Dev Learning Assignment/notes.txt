@@ -204,3 +204,21 @@ order of operations
 basic math concept not python.
 
 -----
+
+
+
+----------
+Math Functions
+Talks about built in functions for python
+abs() absolute function. returns positive number
+round() rounds the number
+
+handful python function. if u write a program with complex mathematical calculations. you need to import math module
+module in python is seperate file with reusable code.
+use this module to reoganize our code in different files.
+
+The math module has a bunch of reusuable functions that perfom mathematical calculations
+
+python 3 math module on google.
+
+-----

@@ -222,3 +222,12 @@ The math module has a bunch of reusuable functions that perfom mathematical calc
 python 3 math module on google.
 
 -----
+
+
+
+----------
+If Statements
+
+
+
+-----

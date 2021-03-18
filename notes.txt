@@ -22,6 +22,42 @@ talks about instrument
 -----
 
 
+
+What is Docker?
+----------
+Docker is a software development platform that makes it easy to develop and deploy APPS into a neatly packaged virtual containerized environment. Apps run the same no matter where they are or what machine they are running on.
+
+
+Docker containers can be deployed to any machine without any compatability issues. Make software simple and easier to use and easier to deploy. 
+
+Containers allow a developer to package up an application with all of the parts it needs, such as libraries and other dependencies, and deploy it as one package.
+
+These containers running on computer/server are like microcomputers. Each with very specifc jobs. Each with different OS. own isolated CPU processes/ Memeory and network resources. Can be easily added or removed without affecting host machine. Containers run one task such as mySQL database, nodejs application, network and potentionally scale
+
+
+Developer would access the Docker hub. An online cloud Repo of docker containers and pull one that contains a preconfigured enviroment for their specific programming language such as ruby/node.js.
+
+Docker is a form of virtualization but the resources are shared with the host. So you can run many docker containers where u can only host a few VMs.
+A virtual machine VM has to quarantine a set amount of resources such as RAM CPU AND HDD, then emulate hardware and then boot a OS. Then the VM communciates with the host computer via a translator application on the host OS called a hypervisor.
+
+Docker communicate natively with system kernal. BYPASSING the middleman on linux and windows. You can run any version of linux in a container and it will run natively.
+Docker uses less disk space as it reuses files efficently by using a layerd file system.
+If you have the same docker image, docker keeps one  file and shares it with each container. 
+
+Docker changes the way we write server software. takes your OS and splits into self contained areas where applications can run it. like  Virtual machine. problem is VMs are very heavy weight and overloads everything. docker is a command line tool
+
+contains your app in a certain space.
+With docker you can take a website and contain it in a container image. you can then redeploy that image onto another server. very portable. 
+can contain the configurations in a certain container. 
+
+gitera - private github
+portainer
+traefik
+
+-----
+
+
+
 Bonus Material
 ----------
 
@@ -31,4 +67,5 @@ Version control helps you
 
 
 The video below (roughly an hour long) will teach you the basics of version control -> https://www.youtube.com/watch?v=RGOj5yH7evk
+
 -----

@@ -227,7 +227,19 @@ python 3 math module on google.
 
 ----------
 If Statements
+Extremly important. Allow us to build programs that can make decisions based on conditions. Conditional programming.
+if
+elif
+else
+if true:
+    do something
 
+-----
+
+
+
+----------
+Logical Operators
 
 
 -----

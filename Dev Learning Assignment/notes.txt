@@ -308,7 +308,14 @@ while else - else gets executed if the while loop completes sucessfully without 
 
 ----------
 Car Game
+We are going to build a game. a simulation for a car game. no GUI. building the engine for the game.
+when u have duplicate in ur code. ur doing something wrong.
+
+-----
 
 
+
+----------
+For Loops
 
 -----

@@ -240,6 +240,17 @@ if true:
 
 ----------
 Logical Operators
+We use these operators in situations where we have multiple conditions
+AND: both
+OR: atleast one 
+not
+
+-----
+
+
+
+----------
+Comparison Operators
 
 
 -----

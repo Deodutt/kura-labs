@@ -277,7 +277,14 @@ comparison operator
 
 ----------
 While Loops
+We use while loops to execute a block of code multiple times.
+usuful in building interactive programs and games
 
+while condition:
+    do something
 
+while the condtion is true, the do something is executed  repeatively
+
+It is important to icnrement your values inside the while loop or else the while loop will run forever
 
 -----

@@ -251,6 +251,22 @@ not
 
 ----------
 Comparison Operators
+We use comparison operators in situations where we want to compare a variable with a value
+>
+>=
+==
+<
+<=
+
+!= not equal
+
+-----
+
+
+
+----------
+Project: Weight Converter
+
 
 
 -----

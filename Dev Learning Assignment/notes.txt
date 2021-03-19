@@ -288,3 +288,27 @@ while the condtion is true, the do something is executed  repeatively
 It is important to icnrement your values inside the while loop or else the while loop will run forever
 
 -----
+
+
+
+----------
+Guessing Game
+Showing how to use while loop to build a guessing game.
+
+Showing how to properly write code.
+Introducing how to terminate a while loop early.
+break
+when python ses break it stops the while loop
+
+
+while else - else gets executed if the while loop completes sucessfully without an immediate break. so basically if the user cant break the loop, the while loop will continue until the condition becomes false.
+-----
+
+
+
+----------
+Car Game
+
+
+
+-----

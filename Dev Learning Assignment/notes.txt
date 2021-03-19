@@ -267,6 +267,17 @@ We use comparison operators in situations where we want to compare a variable wi
 ----------
 Project: Weight Converter
 
+An add on to 03-typeconverters
+Uses if Statements
+comparison operator
+
+-----
+
+
+
+----------
+While Loops
+
 
 
 -----

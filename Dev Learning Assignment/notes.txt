@@ -317,5 +317,24 @@ when u have duplicate in ur code. ur doing something wrong.
 
 ----------
 For Loops
+we use for loops to iterate over items of a collection
+like a string.  you can iterate over each character in a string.
+
+Introduces range function
+
+for item in range(10):                            10 is not included
+When you call range function. range function creates an object. we can iterate over. in each iteration the object spits out a new number
+
+range(5, 10) ----- # 5 6 7 8 9
+
+range(5, 10, 2): the last numer is a step  # 5, 7, 9
+
+-----
+
+
+
+----------
+Nested Loops
+
 
 -----

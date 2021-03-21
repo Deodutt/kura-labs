@@ -335,6 +335,19 @@ range(5, 10, 2): the last numer is a step  # 5, 7, 9
 
 ----------
 Nested Loops
+Adding one loop inside another loop
+we can do amazing stuff
+generate a list of coordinates.
+
+
+
+-----
+
+
+
+----------
+Lists
+
 
 
 -----

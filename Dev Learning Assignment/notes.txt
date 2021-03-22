@@ -347,7 +347,25 @@ generate a list of coordinates.
 
 ----------
 Lists
+taking a closer look at list
+How to access invidual items in a list using brackets names[0]
+negative indexs
 
+how to access a range
+print(names[2:]) # gives a list of items starting from index 2 
+
+print(names[2:4]) #gives a list from the idnex 2 but does not include 4
+
+print(names[:]) # return all item from beinging to end
+
+Doesnt modify the original list. it simply returns a new list.
+
+-----
+
+
+
+----------
+2D Lists
 
 
 -----

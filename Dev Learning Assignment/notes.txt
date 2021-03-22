@@ -425,6 +425,15 @@ We can use this feature for list also.
 
 ----------
 Dictionaries
+We use them to store information that come as key value pairs
 
+Each key has to be unique 
+Shows us how to access these values
+its case sensitive.
 
+we can use the .get method.
+shows how to add new key value pairs
+
+.get method is used incase user enteres character that is not part of dicotionary.
+you pass the character as the key but if its not prividied use , 
 -----

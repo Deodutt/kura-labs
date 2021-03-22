@@ -366,6 +366,14 @@ Doesnt modify the original list. it simply returns a new list.
 
 ----------
 2D Lists
+very powerful. have a lot of applications in data science and machine learning
+
+-----
+
+
+
+----------
+List Methods
 
 
 -----

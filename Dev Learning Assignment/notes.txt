@@ -409,7 +409,22 @@ most of the time, tuples are usful if you want to create a list of items and wan
 
 ----------
 Unpacking
+Unpkacing helps us write code easier. instead of making each variable in seperate lines, you can assign it to a tuple
+coordinates = (1, 2, 3)
+x, y, z = coordinates
 
+When python interpreter sees x, y, z ... it will get the first item in the tuple and assign it to x, then the second to y, then last to z.
+We are unpacking the tuple into 3 varaibles.
+
+We can use this feature for list also.
+
+
+-----
+
+
+
+----------
+Dictionaries
 
 
 -----

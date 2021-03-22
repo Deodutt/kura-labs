@@ -374,6 +374,22 @@ very powerful. have a lot of applications in data science and machine learning
 
 ----------
 List Methods
+Are Operations that we can perform on a list.
+numbers.append(20)  # add a new item to a list
+
+numbers.insert(0, 10)  # add a new item to a at the start. first number is index position and second value is the object you want to add to the list. all the rest items are pushed to right
+
+showing us different methods like append, insert, pop, index, sort, reverse.
+
+
+These are all the operations that we can perform on list. We can add new items, remove exisiting items, check for the existiance of an item, sort out list and copy them.
+
+-----
+
+
+
+----------
+Tuples
 
 
 -----

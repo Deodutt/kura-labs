@@ -456,6 +456,28 @@ Default value None
 
 ----------
 Functions
+talks about how we write codes. as program goes we need better way to organize code. we need to break up the codes in smaller more maintable chunks called functions
+
+a function is a container for a few lines of code that perform a certain task.
+print()
+input() are functions that know how to perform a task
+
+def is a resevered key word in python. when intrepeter sees this they know we are defining a function.
+
+whenever we call a function, the lines are then executed.
+
+when python sees a function, it doesnt execute them until its called. once its called, it will jump back to that function and execute them.
+
+order of code matters
+always define function first, then call them.
+
+-----
+
+
+
+----------
+Parameters
+
 
 
 -----

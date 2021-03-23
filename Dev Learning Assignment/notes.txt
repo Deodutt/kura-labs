@@ -554,6 +554,30 @@ functions should generally not worry about recieving input and printing it.
 
 ----------
 Exceptions
+Tells us how to handle errors in python programs.
+When users enter something wrong in the input functions.
+exit code 0 means success
+anything but 0 means crash
+
+instead of letting the program crash, we should  print a proper error message.
+
+ValueError
+
+try except  --- is used to handle errors
+
+after try we write except. then we write then we add the type of error our program may encounter
+
+different types of errors
+
+We use try except blox to handle exception that are raised in our programs
+as aprogram we should always anticipate the exceptions and handle them properly.
+
+-----
+
+
+
+----------
+Comments
 
 
 

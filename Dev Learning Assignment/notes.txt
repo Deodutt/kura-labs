@@ -578,6 +578,19 @@ as aprogram we should always anticipate the exceptions and handle them properly.
 
 ----------
 Comments
+We use comments to add notes to our programs.
+with comments we can add comments about our codes. write reminders to fix things. clean things up. use to communicate.
+
+One thing to do when using comments is avoid explaining what the code does. its telling us the obvious. When modifiying code, you would probably have to modify the comment.
+
+People get distracted with unnecssary comments. use comments to explains why and hows. add notes to remind ourselves. too much is bad.
+
+-----
+
+
+
+----------
+Classes
 
 
 

@@ -521,6 +521,26 @@ keyword arguments shuld always come after positonal arguments. if passing both a
 
 ----------
 Return Statement
+the return statement returns value to our functions.
+
+result = square(3)
+print(result)
+
+get the same result with this
+print(square(3))
+
+if you dont use the return statement in a function. you get 
+9 and None. it will call the square function when print(square(3)) is called. 9 will show. all functions return the value none. after the square(3) is ran the value none is ran and printed to console.
+
+By default all functions in python return none. you can change that. if you have a fucnntion that calculates something, you can return the result using the return statement.
+
+-----
+
+
+
+----------
+Creating a Reusable Function
+
 
 
 -----

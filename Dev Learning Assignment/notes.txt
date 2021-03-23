@@ -435,5 +435,27 @@ we can use the .get method.
 shows how to add new key value pairs
 
 .get method is used incase user enteres character that is not part of dicotionary.
-you pass the character as the key but if its not prividied use , 
+you pass the character as the key but if its not providied use , 
+
+-----
+
+
+
+----------
+Emoji Converter :)
+Show something really cool we can do with dictionaries. 
+msg.split(" ") thius basically goes through a string and anywhere you find a space, it uses it as a boundary to seperate it into multiple words. its then stored into a list.
+
+.get(key, ifnoitem with that key use the word as the default value)
+The second value in the () is Optional. A value to return if the specified key does not exist.
+Default value None
+
+-----
+
+
+
+----------
+Functions
+
+
 -----

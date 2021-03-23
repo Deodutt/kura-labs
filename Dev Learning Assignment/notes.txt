@@ -629,7 +629,17 @@ Use classes to define new types. These types can have methods. They can also hav
 
 ----------
 Constructors
+we can create a point object without an x or y coordinate.
+AttributeError. no attribute called x
+it is possible to have a point object without an x or y cooridnate
+doesnt really make sense because whenever we talk about a point, we need to know where that point is located
 
+we use a Constructors to solve it.
+A Constructors is a function that gets called at the time of creating an object.
 
+init is short for initialize
+to initialize our object use self.y = y
+
+each object is a different instance of a person class.
 
 -----

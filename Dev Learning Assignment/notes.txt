@@ -498,8 +498,29 @@ We can also define multiple parameters
 
 
 ----------
-Keyword arguments
+Keyword Arguments
+positional arguments
+when calling greet_user("Ricardo", "Deodutt"), the position matters.
+the first argument is the first value, the second argument the the second value.
 
+if you change the order then you will get different results.
+
+in python we have keyword arguments. the position does not matter with those.
+greet_user(last_name="Deodutt", first_name="Ricardo")
+we dont have to worry about the matter.
+most of the itme we use positional arguments
+keyword arguments help us with the readability with the code.
+
+sometimes you deal with fucntions that work with numerical values. some situations its not clear what the values represent.
+
+keyword arguments shuld always come after positonal arguments. if passing both a keyword argument and positonal argument.
+
+-----
+
+
+
+----------
+Return Statement
 
 
 -----

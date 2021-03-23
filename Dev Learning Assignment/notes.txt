@@ -540,6 +540,20 @@ By default all functions in python return none. you can change that. if you have
 
 ----------
 Creating a Reusable Function
+follow up on emoji converter.
+exercise to reorganize the code using a function.
+
+Input function can come from different forms such as GUI or terminal.
+We dont include the print(output) because different programs deal with the output. one program may send the output somewhere.
+functions should generally not worry about recieving input and printing it.
+
+
+-----
+
+
+
+----------
+Exceptions
 
 
 

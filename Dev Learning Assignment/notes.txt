@@ -591,6 +591,44 @@ People get distracted with unnecssary comments. use comments to explains why and
 
 ----------
 Classes
+Important. Not specific for python. 
+Use classes to define new types.
+Numbers Strings Booleans
+List Dictionaries
+
+operations we can perform on points.
+points.move draw get_distance
+
+we can define all the functions/methods that belong to points
+
+Self Keyword
+
+
+covention we use to name classes is different for naming variables and functions.
+for variables/functions we use lowercase
+
+When using classes, we cpaitlaize first letter of every word.
+Pascal naming convention
+
+a class basically defines a blueprint or template for creating an object
+an object is an instance of a class. objects are based off classes
+
+
+appart from methods
+methods can have attritubes
+attributes are like variables that belong to a particular object.
+
+each object is a different instance of a point class
+point1.x
+point2.x
+
+Use classes to define new types. These types can have methods. They can also have attributes that we can set anywhere.
+-----
+
+
+
+----------
+Constructors
 
 
 

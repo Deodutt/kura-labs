@@ -672,6 +672,34 @@ pass tells python to skip this.
 
 ----------
 Modules
+a module is a file with some python code.
+we use modules to organize our code into multiple files. just like sections in a super market.
+
+instead of writing all functions and classes into one file. we break them up into multiple files. we call each file a module. with this our code is better organized. also reusue our code.
+
+a module should contain all the related functions and classes.
+import it
+
+import 36-modules_converters
+type out name of file
+
+Modules cant import files that start with numeric values.
+https://stackoverflow.com/questions/9090079/in-python-how-to-import-filename-starts-with-a-number
+
+instead of importing an entire module. you can import specific functions from that module.
+
+we can convert a module into a module.
+improt entire module and get an object with same name as the module.. we can type converts. and will access all function and classes in that module.
+
+other approach is to import a specific function or class from a module using the from import statement
+
+max is a built in function name. it used to be a function. after changing it max is set to an integer. 
+-----
+
+
+
+----------
+Packages
 
 
 

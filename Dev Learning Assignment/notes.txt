@@ -477,6 +477,28 @@ always define function first, then call them.
 
 ----------
 Parameters
+The difference between a print function and a greet_user() function?
+The print function takes some information that we want to print. the greet_user() function does not take any information
+
+Showing us how to pass information to our functions.
+
+parameters are placeholders for reciving information.
+We can reuse our function without havingto edit the original function to add a value. paramaters help us.
+
+when a function passes a parameter, we are obligated to pass a value for that parameter.
+
+Parameters vs arguments
+Parameters are the holes/placeholders we define in a function for recieving information
+arguments are the actual peices of information that we supply to the functions. 
+
+We can also define multiple parameters
+
+-----
+
+
+
+----------
+Keyword arguments
 
 
 

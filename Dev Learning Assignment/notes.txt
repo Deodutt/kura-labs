@@ -754,6 +754,16 @@ start by importing random  module at top. we define a class called dice. we want
 
 ----------
 Files and Directories
+how to work with Directories
+module called pathlib. provides class we can use to create objects to work with directories/files.
+
+
+-----
+
+
+
+----------
+Pypi and Pip(Huh?)
 
 
 

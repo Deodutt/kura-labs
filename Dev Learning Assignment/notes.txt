@@ -764,6 +764,27 @@ module called pathlib. provides class we can use to create objects to work with 
 
 ----------
 Pypi and Pip(Huh?)
+python standard library is not complete. we have directory called pypi python package index. we can find thousand of packages to do awesome things. things people have built and published. many things to let people use in code.
+https://pypi.org/
+sms
+some are bug free.
+leanr how to access yelp.com and search for busniesses. learn about webscrapping. engine that browse a website and extract information from HTML files. same thing google does to index. web engines/crawlers that look at websites and extract information. look at browser automation.
+
+show how to intall packages from pypi.org
+openpyxl is used for  excell spreadsheets.
+pip install openpyxl
+
+in terminal type pip install openxl
+pip comes with python installtion. we use to install/unistall packages registered on pypi.org
+
+cell is a package with different modules 
+
+-----
+
+
+
+----------
+Excel Spreadsheets
 
 
 

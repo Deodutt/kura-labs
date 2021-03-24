@@ -700,6 +700,39 @@ max is a built in function name. it used to be a function. after changing it max
 
 ----------
 Packages
+packages are another way to organize our code.
+real projects can contain hundreds maybe thousands of modules
+we dont want to add all modules. overtime directory will get bloated.
+organize related modules in a package.
+a package is a directory or folder
+
+to create a package, make a new directroy. in that directroy make a file called __init__.py
+when python sees that file, it treats the directory as a package.
+
+to import package_34 module into main 
+
+import ecommerce_package.shipping
+ecommerce_package.shipping.calc_shipping()
+
+when working with packages we use the second approach which is the from statement
+from ecommerce_package.shipping import calc_shipping
+we dont have to prefix the statements with ecommerce_package.shipping
+
+if u want to use multiple functions in shipping module,
+you can import them with a comma. or import entire module.
+
+from ecommerce_package import shipping
+now we can do
+shipping.
+
+package > module
+package.module > specific function
+-----
+
+
+
+----------
+Generating Random Values
 
 
 

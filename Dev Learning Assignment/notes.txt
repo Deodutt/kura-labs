@@ -733,6 +733,27 @@ package.module > specific function
 
 ----------
 Generating Random Values
+built in modules in python
+python comes with stand library that contains several modules for common task such as sending emails, working with date and time, generating passwords, etc.
+
+we dont have to code it all from stractch. there are standard libraries online.
+
+https://docs.python.org/3/py-modindex.html
+all the modules built into python.
+
+show how to use built in modules for generating random values
+
+python knows where to find it.
+
+
+start by importing random  module at top. we define a class called dice. we want to have a method called roll. in this method we want two random values from 1-6. so we have two variables. we need to return them in a tuple. in python when returning a tuple from a function, you dont have to add a ()........ now we create an object of this type. dice = Dice().... next we roll the dice and print result
+
+-----
+
+
+
+----------
+Files and Directories
 
 
 

@@ -61,6 +61,7 @@ traefik
 Bonus Material
 ----------
 
+Version control Git and GitHub is a key skill for DevOps engineers to master.
 Version control helps you 
 1) track changes
 2) show the world what you’re working on

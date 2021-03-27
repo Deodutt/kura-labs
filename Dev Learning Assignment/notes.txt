@@ -784,8 +784,11 @@ cell is a package with different modules
 
 
 ----------
-Excel Spreadsheets
-
-
+Project 1: Automation with Python - Excel Spreadsheets
+Learn how to process spreadsheets. Good when you need to update hundred and thousands of spreadsheets.
+spreadsheet has 3 colums. transactionid productid and price.
+we record all transactions. due to an error, the price is wrong. we need to decrease them by 10%
+we would need to do it by hand =C2*0.9 to reduce price by 10%.
+write a python program to automate the process
 
 -----

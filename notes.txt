@@ -23,7 +23,7 @@ talks about instrument
 
 
 
-What is Docker?
+SIDE NOTES: What is Docker?
 ----------
 Docker is a software development platform that makes it easy to develop and deploy APPS into a neatly packaged virtual containerized environment. Apps run the same no matter where they are or what machine they are running on.
 
@@ -68,5 +68,242 @@ Version control helps you
 
 
 The video below (roughly an hour long) will teach you the basics of version control -> https://www.youtube.com/watch?v=RGOj5yH7evk
+
+
+SIDE NOTE: I am already familiar with basics in GitHub. I am completing this for the Learning Assignment. I would also like to obtain information I don't already know so this video would be great.
+
+
+Git?
+Git is a free and open source version control system. Most widely used version control system in development today.
+
+Version control is a way (we programers) track out code changes. We basically save an initial version of code into Git. When we update code we can save it into git again. Overtime we can look back at our code and look at all of our changes we have made overtime. helps us see what we did and track down bugs, or go back to previous version of the code
+
+Version Control - The management of changes to documents, computer programs, large web sites, and other collections of information.
+
+Terms
+Directory -> folder
+Terminal/Command Line -> Interface for text commands.
+CLI -> Command Line Interface.
+cd -> Change Directory
+Code Editor -> Work Processor for writing code
+Repository -> Project, or the folder/place where your project is kept. (Basically a git Repository. Your project/folder place where project is kept)
+
+Git -> a tool that tracks the changes in your code over time
+GitHub -> a website to host your repositories online. Makes it easier to work in groups with other and organize your portfolio to show to people.
+
+
+Git Commands
+Clone -> Bring a repository that is hosted somewhere else like Github into a folder on your local machine. (repo that is not on local machine but on github use clone command to bring it down to local machine)
+
+add -> track your files and changes in git. if u updated / deleted stuff you want to tell git so you use git.
+commit -> Save your files in git
+push -> upload git commits to a remote repo like github
+pull -> When there are changes to code on github.. and want to bring them to local machines you use pull command. Download chanes from remote repo to your local machine.
+
+First thing. Sign up.
+Create a new repositiory.
+basic readme.md - contains text what the project is about. any other releveant ifno.
+Placeholder text are in grey. if you dont put anything it will auto put it. 
+
+When looking at commit history.
+Red with - sign means it was deleted
+Green with + means a line was added.
+White means nothing changed. It was the same
+
+Talks about different methods on how to install Git on local machines.
+Talks about getting a code editor. VSCODE is free. Widely used for people learning/professional
+
+Shows how to pull a repositiory to  local machine.
+git clone git@github.com:subzero-flow/demo-repo.git
+cd demo-repo
+
+ls -la to show all folder. List everything including hidden folders
+shows .git folder. its a hidden folder. This folder stores all the files that save your code change/commits. ALL CHANGES recorded in the history of the repo.
+
+make changes to a file -> save the files.
+git status shows all files that were updated/created/deleted but havent been saved in a commit yet.
+git add . - track all the files 
+git add index.html - shows how to add a single file
+git commit -m ""        -m means message. you need to have a message to commit your files. needs to be one.
+git commit -m "added index.html" -m "Some description"
+once you do that the change is saved locally but not live on github.
+make it live by using git push
+
+
+
+SSH Key
+Before pushing to github. You need to prove to github that you are the owner of your account. This is done by using SSH keys.
+Start by generating a key locally using the SSH keygen command. then specifiy type of encryption and strength. at the end incluide github email address.
+ssh-keygen -t rsa -b 4096 -C "email@email.com"
+testkey - this is a private key you dont sharte with anyone.
+testkey.pub - this is the key you will upload to github interface. public key. ok to others to see the key 
+Everytime you want to connect to github, you use private key to show github that you are the one that generated key.
+
+pbcopy < ~/testkey.pub     -lets you copy to clipboard.
+
+modify ssh config file.
+
+
+
+git push origin main             -origin is an option. word stands for location of git repo. master is the branch we want to push to
+
+How to make repo on local
+create file. cd into new folder
+make a new file
+to make into git repo  do 
+git init
+git status
+git add .
+git commit -m "Created README.md"
+
+to push live
+git doesnt know where to push it to
+easiest way to do it is by creating an empty repo on github.
+git remote add origin git@github.com:subzero-flow/demo-repo2.git
+
+git remote -v
+git push origin main
+to stop typing origin main make an upstream
+git push -u origin main
+
+
+Workflows
+Adding code via Github interface vs writing it locally
+In github we are adding and commit at the same time. We didnt have to push the commit live. There is no local repo
+
+if we didnt own repo or didnt have access writes, or needed other to review code before merging. we would have to make a pull request.
+
+
+Locally in Git
+write code -> git add to stage changes -> save them using git commit -> push to remote repo on github using git push. -> make pull request to make changes if we dont own.
+
+
+Git Branching.
+Main branch - default branch in repo. Its not named master branch anymore because of efforts to remove slavery relations.
+
+if you are working off of one branch thats where the code commits will be in that branch.
+Branching start to look like a tree with multiple branches
+can make another branch
+feature branch
+
+Code on main and feature branch will be the same. but as you make updates to feature branch, those changes are only seen in the feature branch. If you make changes to feature and switch back to main branch you wont see any changes.
+
+Each branch only keeping track of what changes are being made on its own branch.
+This is useful because you will be building new features that may break code and you dont want to save them to the main branch.
+You want to code in the sandbox area so you can write all the code you need and get it correct before you merge it back to main branch.
+
+Very helpful when you have many different people working in the same repo.
+hotfix branch to fix a bug and then merge back to master branch.
+
+
+git branch - shows all branches
+* means you are on current branch
+git checkout  used to switch between branches
+git checkout -b name         to create a branch
+
+
+
+when inside new branch
+save things git add .
+git commit -m "updated readme"
+saved to features branch.
+git checkout main
+
+git merge to merge locally.
+git diff shows what changes have been made.
+git diff features/iv 
+hit q to get out
+git merge feature/iv could work
+but more common pattern is to push the changes on the branch onto github then making a pr.
+
+git push
+since on new branch. it needs to tell which branch on github you want to push to.
+git push --set-upstream origin feature/iv      --set-upstream is the same as -u
+
+giving hints on pr pull request
+
+Pull Request (PR - a request to have your code pulled into another branch. In the exmple we are doing. We have a feature branch and want to have code pulled into main branch. So we make a PR from the feature branch to the main branch. Once we make PR anyone can review the code, comment, ask to make changes.
+
+After you make PR. you can update the code by making additional commit and pushing up to github. As long as its on same branch as PR rquest.
+Once PR is merged. you will generally delete feature/source branch and switch back to master branch. When you want to make aditional coding changes you will create another new branch and start the process over which is make make commit, pr, then merge again.
+
+You could go to this link to make PR request. https://github.com/subzero-flow/demo-repo/pull/new/feature/iv
+When making pull request. Good to add changes made and some description on why changes where made.
+
+You can see comments made on pull request. Look through all commits. Look at file changes.
+You can make a comment on a particular line of code.
+
+once merges. switch to main branch locally. YOU WONT see the changes. All changes on github and you need to pull them down
+git pull
+
+You will be done with feature branch. Good to delete it
+git branch -d feature/iv
+
+Sometimes there are merge conflicts on git. You are building code on your branch. oTHERS ARE writing code on their branch. Master is getting updated from different places. Multiple people to change the same file. Git doesnt know which code to keep or get rid of. So you have to manually do it.
+
+git status
+git diff
+
+When you modify one file.
+git commit -am    a stands for add     m is for message.... can do it at the same time. Add and commit at same time. Only works for modified files not newely created.
+
+Old branch and new branch has an update on each line 11. Good because each branch is sepoerate but a problem when trying to merge. Who line 2 is going to put there
+
+making us commit so changes arent lost. You can stash to retrieve code later.
+
+git merge main    #merge locally. main gets updated as you work on your project. As changes are made to master in github. going to want to pull down. Whatever feature you are working. git merge main to keep branch up to date in main
+
+Conflict. Couple ways to fix. Github interface. Fix it in terminal. Easiest way is directly in code.
+
+once deleted conflict markers.
+git status
+need a commit to fix 
+updated.
+
+
+
+Undoing in git
+When making a mistake. You can undo stages or commits.
+once you do git add . it stages the file.
+
+You can easily undo by using git reset
+git reset
+git reset filename
+
+What if you want to udno a commit?
+If you made a mistake use same git reset
+git reset HEAD
+Head is the pointer to the last commit 
+git reset HEAD~1
+instead of pointing to last commit, go back to one commit further which basically undos the commit yopu just made
+It unstaged and uncommited it.
+
+If you have many different commits. You might want to go back to a specific commit
+git log to show all commits. Reverse chronological order
+Git has commits have different hash
+want to go back to different commit, you can copy the hash
+git reset 15b97362f6e884acae54a9b8b87f31677140604a
+unstage any changes made to the files after that commit.
+
+Want to get rid of all the changes after a certain point.
+git reset --hard 15b97362f6e884acae54a9b8b87f31677140604a    --hard means wants all changes to be unstaged and completely removed. Head is now at a different commit. Basically gone back in time.
+
+
+
+Forking.
+When you click it, it basically makes a complete copy of the repo. Dont need to fork own repo since you have full access to the code. But you dont for other peoples repo.
+
+Some repos you dont have access to change anything in the repo. If you want to make a PR and make a request to changes to be added. or if you want to branch off the code and do whatever you want, then you want to fork it.
+
+Once you fork it you have complete control to make any updates or changes to the code.
+
+Before you worked off main branch. but sometimes in larger projects, you want to create multiple branches for different environments.
+When changes are made, they arent part of main repo, but part of the one you are forked.
+
+If you wanted to get changes back itno original repo. Create a pull request. Put base repo to original repo location. compare it to your repo that forked.  
+
+After we merge a branch into a default branch like main. Then we would delete branch from local and github. Different when we use branches like dev staging and main because generally we merge feature branch into dev main and staging reserved for just merging into. No changes in dev and main. Just merging other branches into dev and main based off code basis. 
+
+HAVING OWN fork lets us have our own control of create read update delete. If we want to make major updates. fork repo -> pull fork down to local machine -> make changes -> push back to fork -> then make a PR against original repo.
 
 -----

@@ -163,13 +163,13 @@ class BankAccount:
                 123456,
                 5000,
                 "The Home Depot: 21.75",
-                "Target: -5.59",
+                "Target: 5.59",
                 "Amazon REFUND: 27.59",
             ],
             "saiho yip": [
                 112233,
                 2.75,
-                "CVS: -14.89",
+                "CVS: 14.89",
                 "Target: 200.89",
                 "ExxonMobil Gas: 20.52",
             ],
@@ -209,7 +209,7 @@ class BankAccount:
         )  # printing the current balance
         today = date.today()  # used to get the current date. Needed for append.
         self.customer_accounts.get(customer_name).append(
-            f"{customer_name.title()} has added ${deposit_amount} on {today}"  # I am adding on to the list that is inside of the dictionary. (The value in the keyvalue pair.)
+            f"{customer_name.title()} added ${deposit_amount} on {today}"  # I am adding on to the list that is inside of the dictionary. (The value in the keyvalue pair.)
         )
         self.customer_decision()  # Calls the customer_decision() function
 
@@ -234,7 +234,7 @@ class BankAccount:
         )  # prints the new balance
         today = date.today()  # gets the date for appending
         self.customer_accounts.get(customer_name).append(
-            f"{customer_name.title()} has withdrew ${withdraw_amount} on {today}"  # appends a string to the list
+            f"{customer_name.title()} withdrew ${withdraw_amount} on {today}"  # appends a string to the list
         )
         self.customer_decision()  # runs the customer_decision() method
 
@@ -249,6 +249,7 @@ class BankAccount:
         print(transaction_list)  # prints out the transaction list
         self.customer_decision()
 
+    # Transfer method
     def transfer(self):
         obtained_user = self.customer_accounts.get(
             customer_name
@@ -298,7 +299,7 @@ class BankAccount:
         # appending
         today = date.today()
         self.customer_accounts.get(customer_name).append(
-            f"{customer_name.title()} has transferred ${transfer_amount} to {transfer_user.title()} on {today}"
+            f"{customer_name.title()} transferred ${transfer_amount} to {transfer_user.title()} on {today}"
         )
         self.customer_accounts.get(transfer_user).append(
             f"You have recieved {transfer_amount} from {customer_name.title()} on {today}"
@@ -356,6 +357,7 @@ class BankAccount:
             self.customer_decision()
 
 
+# This is ran first. Ask the user to log in
 customer_name = input(
     "Hello! Welcome to Ricardo's banking services!\nPlease input your name: "
 ).lower()

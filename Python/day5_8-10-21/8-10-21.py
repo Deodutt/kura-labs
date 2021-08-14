@@ -221,14 +221,25 @@ class BankAccount:
         withdraw_amount = int(
             input("How much would you like to withdraw? $")
         )  # ask how much to take out.
-        new_balance = (
-            obtained_balance[1] - withdraw_amount
-        )  # does math to get new balance.
 
-        print(f"Please wait......... Successfully withdrew!\nPlease take your money!")
+        funds = False
+        while funds == False:
+            if obtained_balance[1] < withdraw_amount:
+                print(f"Insufficient Funds")
+                withdraw_amount = int(
+                    input("How much would you like to withdraw? $")
+                )  # ask how much to take out.
+
+            elif obtained_balance[1] >= withdraw_amount:
+                new_balance = (
+                    obtained_balance[1] - withdraw_amount
+                )  # does math to get new balance.
+                funds = True
+
         self.customer_accounts.get(customer_name)[
             1
         ] = new_balance  # updates the new balance
+        print(f"Please wait......... Successfully withdrew!\nPlease take your money!")
         print(
             f"New Balance: ${self.customer_accounts.get(customer_name)[1]}"
         )  # prints the new balance
@@ -279,13 +290,25 @@ class BankAccount:
             )
         )
 
-        # calulates the new_balance and updates the current account balance.
-        new_balance = obtained_user[1] - transfer_amount
-        self.customer_accounts.get(customer_name)[1] = new_balance
+        funds = False
+        while funds == False:
+            if obtained_user[1] < transfer_amount:
+                print(f"Insufficient Funds")
+                transfer_amount = int(
+                    input(
+                        f"How much money do you want to transfer to {transfer_user.title()}? $"  # The .title() method basically capitalizes each word in a string.
+                    )
+                )
 
-        # calulates the new_balance and updates the transfer userss account balance.
-        new_balance = transfer_user_amount[1] + transfer_amount
-        self.customer_accounts.get(transfer_user)[1] = new_balance
+            elif obtained_user[1] >= transfer_amount:
+                # calculates the new_balance and updates the current account balance.
+                new_balance = obtained_user[1] - transfer_amount
+                self.customer_accounts.get(customer_name)[1] = new_balance
+
+                # calulates the new_balance and updates the transfer userss account balance.
+                new_balance = transfer_user_amount[1] + transfer_amount
+                self.customer_accounts.get(transfer_user)[1] = new_balance
+                funds = True
 
         print(f"Please wait......... Successfully Sent!")
         # prints outs both users balance. (I did this to show it updated each. I did not create a logout function to log into other users.)
@@ -302,7 +325,7 @@ class BankAccount:
             f"{customer_name.title()} transferred ${transfer_amount} to {transfer_user.title()} on {today}"
         )
         self.customer_accounts.get(transfer_user).append(
-            f"You have recieved {transfer_amount} from {customer_name.title()} on {today}"
+            f"You have received {transfer_amount} from {customer_name.title()} on {today}"
         )
         self.customer_decision()
 
@@ -335,7 +358,7 @@ class BankAccount:
     def customer_decision(self):
         customer_decisions = int(
             input(
-                "\nPlease enter the number of what you would like to do\n1. Get Balance Information\n2. Make a Deposit\n3. Make a Withdrawal\n4. Get previous Transactions\n5. Transfer money to another user\n5. Exit\n\nChoice: "
+                "\nPlease enter the number of what you would like to do\n1. Get Balance Information\n2. Make a Deposit\n3. Make a Withdrawal\n4. Get previous Transactions\n5. Transfer money to another user\n6. Exit\n\nChoice: "
             )
         )
 

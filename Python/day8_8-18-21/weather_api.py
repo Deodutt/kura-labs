@@ -3,7 +3,7 @@ import requests
 city_id = 5128581
 BASE_URL = "https://api.openweathermap.org/"
 route = f"data/2.5/weather?id={city_id}&appid="
-api_key = "1ec66bae317f90b95bfc81c8b1215dca"
+api_key = ""
 
 
 api_request = requests.get(BASE_URL + route + api_key)

@@ -4,7 +4,7 @@ city_id = 5128581
 BASE_URL = "https://api.openweathermap.org/"
 route = f"data/2.5/weather?id={city_id}&appid="
 api_key = ""
-
+# Paste API key above
 
 api_request = requests.get(BASE_URL + route + api_key)
 response = api_request.json()

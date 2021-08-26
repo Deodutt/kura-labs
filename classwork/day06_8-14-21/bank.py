@@ -233,11 +233,11 @@ class BankAccount:
 
 
 # This is ran first. Ask the user to log in
-# customer_name = input(
-#     "Hello! Welcome to Ricardo's banking services!\nPlease input your name: "
-# ).lower()
+customer_name = input(
+    "Hello! Welcome to Ricardo's banking services!\nPlease input your name: "
+).lower()
 
-customer_name = "Ricardo Deodutt"
+# customer_name = "Ricardo Deodutt"
 
 p1 = BankAccount(customer_name)
 p1.verification()

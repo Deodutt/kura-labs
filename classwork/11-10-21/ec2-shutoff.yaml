@@ -1,0 +1,4 @@
+- name: Start EC2 Instance
+  hosts: localhost
+  gather_facts: false
+  vars:

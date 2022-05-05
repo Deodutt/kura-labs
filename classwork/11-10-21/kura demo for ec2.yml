@@ -1,0 +1,43 @@
+#old version: https://docs.ansible.com/ansible/latest/collections/amazon/aws/ec2_module.html
+#new version: https://docs.ansible.com/ansible/latest/collections/community/aws/ec2_instance_module.html
+
+- name: Start EC2 Instances
+  hosts: localhost
+  gather_facts: false
+  vars:
+    region: us-east-1
+    instance: *instance ids
+    access_key: *accesskeyhere
+    secret_key: *secretkeyhere
+    #instance_tags:
+      #tag: ansible node 
+  tasks:
+  - name: Starting EC2 Instances
+    community.aws.ec2_instance:
+      instance_ids: '{{instance}}'
+      region: '{{region}}'
+      #instance_tags: '{{instance_tags}}'
+      aws_access_key: '{{access_key}}'
+      aws_secret_key: '{{secret_key}}'
+      state: running
+      wait: yes
+  - name: Stopping EC2 Instances
+    community.aws.ec2_instance:
+      instance_ids: '{{instance}}'
+      region: '{{region}}'
+      #instance_tags: '{{instance_tags}}'
+      aws_access_key: '{{access_key}}'
+      aws_secret_key: '{{secret_key}}'
+      state: stopped
+      wait: yes
+  - name: Terminating EC2 instance_ids
+    community.aws.ec2_instance:
+      instance_ids: '{{instance}}'
+      region: '{{region}}'
+      aws_access_key: '{{access_key}}'
+      aws_secret_key: '{{secret_key}}'
+      #instance_tags: '{{instance_tags}}'
+      state: terminated
+      wait: yes
+
+
